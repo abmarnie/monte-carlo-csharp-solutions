@@ -53,6 +53,9 @@ class Program
 			MonteCarlo(Crazy8s, numTrials, logResults: true);
 		}
 
+		Console.WriteLine("Press any key to exit...");
+		Console.ReadKey();
+
 		static int GetNumTrialsFromUser() 
 		{
 			int nTrials;
